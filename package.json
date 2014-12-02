@@ -1,0 +1,27 @@
+{
+  "name": "jade2swig",
+  "version": "0.1.0-dev",
+  "description": "Convert jade templates to Swig",
+  "keywords": [
+    "node.js",
+    "template",
+    "engine",
+    "converter",
+    "jade",
+    "swig",
+    "jade2swig"
+  ],
+  "author": "Pavel Machekhin <pavel.machekhin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "jade": "^1.8.1",
+    "lodash": "^2.4.1",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.21",
+    "chai": "~1.10",
+    "sinon": "^1.12.1"
+  }
+}

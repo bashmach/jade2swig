@@ -1,0 +1,11 @@
+{% if (messages.errors) %}
+    <div class="alert alert-danger fade in">
+        <button class="close" type="button" data-dismiss="alert">
+            <span class="ion-close-circled"></span>
+        </button>
+        {% for (error in messages.errors) %}
+            <div>{{ error }}</div>
+        {% endfor %}
+    </div>
+
+{% endif %}
